@@ -1,0 +1,61 @@
+proxies:
+
+proxy-groups:
+  - name: MANUAL
+    type: select
+    proxies:
+
+  - name: AUTO
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+
+  - name: HK/TW
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+
+  - name: PROXY
+    type: select
+    proxies:
+      - MANUAL
+      - AUTO
+
+  - name: BILIBILI
+    type: select
+    proxies:
+      - DIRECT
+      - HK/TW
+
+  - name: FINAL
+    type: select
+    proxies:
+      - PROXY
+      - DIRECT
+
+rule-providers:
+  Proxy:
+    type: http
+    behavior: classical
+    path: ./ruleset/Proxy.yml
+    url: https://raw.githubusercontent.com/hutaosama1024/HelloWorld/main/clash/rules/Proxy.yml
+    interval: 300
+
+  Bilibili:
+    type: http
+    behavior: classical
+    path: ./ruleset/Bilibili.yml
+    url: https://raw.githubusercontent.com/hutaosama1024/HelloWorld/main/clash/rules/Bilibili.yml
+    interval: 300
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - DOMAIN-SUFFIX,pku.edu.cn,DIRECT
+  - RULE-SET,Bilibili,BILIBILI
+  - RULE-SET,Proxy,PROXY
+  - GEOIP,CN,DIRECT
+  - MATCH,FINAL

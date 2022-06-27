@@ -1,0 +1,48 @@
+# Google
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,goo.gle
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,gmail.com
+# Twitter
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+# Wiki
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+# Reddit
+DOMAIN,www.reddit.com
+# Steam
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+# YouTube
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,youtu.be
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+# Twitch
+DOMAIN-SUFFIX,twitch.tv
+# NicoNico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,dmc.nico
+# Pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+# 速蛙云
+DOMAIN,cloud.faster.buzz
+# Pornhub
+DOMAIN-KEYWORD,pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+# 91Porn
+DOMAIN,91porn.com
+DOMAIN,la.killcovid2021.com
+# Z-Library
+DOMAIN-SUFFIX,z-lib.org
+# Gravatar
+DOMAIN-SUFFIX,gravatar.com
+# DeepL
+DOMAIN-SUFFIX,deepl.com
