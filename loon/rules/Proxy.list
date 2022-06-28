@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,twimg.com
 # Github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.io
 # Wiki
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
