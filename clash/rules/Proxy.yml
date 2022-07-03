@@ -21,8 +21,8 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
   # YouTube
-  - DOMAIN-KEYWORD,youtube
-  - DOMAIN-KEYWORD,youtu.be
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
   # Twitch
@@ -49,4 +49,4 @@ payload:
   # Gravatar
   - DOMAIN-SUFFIX,gravatar.com
   # DeepL
-  - DOMAIN-SUFFIX,deepl.com
+  - DOMAIN,deepl.com
