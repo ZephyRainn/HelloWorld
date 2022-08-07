@@ -43,7 +43,7 @@ payload:
   - DOMAIN,91porn.com
   - DOMAIN,la2.killcovid2021.com
   # E-HENTAI
-  - DOMAIN,e-hentai.org
+  - DOMAIN-SUFFIX,e-hentai.org
   # Z-Library
   - DOMAIN-SUFFIX,z-lib.org
   # Android Developer
