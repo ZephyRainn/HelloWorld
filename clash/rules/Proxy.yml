@@ -41,7 +41,9 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   # 91Porn
   - DOMAIN,91porn.com
-  - DOMAIN,la.killcovid2021.com
+  - DOMAIN,la2.killcovid2021.com
+  # E-HENTAI
+  - DOMAIN,e-hentai.org
   # Z-Library
   - DOMAIN-SUFFIX,z-lib.org
   # Android Developer
