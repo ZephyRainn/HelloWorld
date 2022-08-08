@@ -4,6 +4,9 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
+      - HK
+      - JP
+      - US
 
   - name: AUTO
     type: url-test
@@ -12,7 +15,21 @@ proxy-groups:
     tolerance: 50
     proxies:
 
-  - name: HK/TW
+  - name: HK
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+
+  - name: JP
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+
+  - name: US
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -29,13 +46,14 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - HK/TW
+      - HK
 
   - name: FINAL
     type: select
     proxies:
-      - PROXY
       - DIRECT
+      - PROXY
+      - MANUAL
 
 rule-providers:
   Proxy:
