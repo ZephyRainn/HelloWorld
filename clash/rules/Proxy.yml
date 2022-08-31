@@ -44,6 +44,10 @@ payload:
   - DOMAIN,la2.killcovid2021.com
   # Netflav
   - DOMAIN,netflav.com
+  - DOMAIN,pornimg.xyz
+  - DOMAIN,99av.tv
+  - DOMAIN-SUFFIX,7mmtv.tv
+  - DOMAIN,static.missav.com
   # E-HENTAI
   - DOMAIN-SUFFIX,e-hentai.org
   # Z-Library
@@ -54,3 +58,6 @@ payload:
   - DOMAIN-SUFFIX,gravatar.com
   # DeepL
   - DOMAIN,deepl.com
+  # Stackoverflow
+  - DOMAIN,stackoverflow.com
+  - DOMAIN,cdn.sstatic.net
