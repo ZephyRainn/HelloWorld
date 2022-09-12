@@ -10,7 +10,6 @@ payload:
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
-
   # Twitch
   - DOMAIN-SUFFIX,twitch.tv
   # NicoNico
@@ -21,7 +20,6 @@ payload:
   # Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
-
   # Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,githubusercontent.com
@@ -29,36 +27,27 @@ payload:
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net
-
   # Wiki
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
   # Z-Library
   - DOMAIN-SUFFIX,z-lib.org
-  
   # Steam
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
-
   # Gravatar
   - DOMAIN-SUFFIX,gravatar.com
-
   # DeepL
   - DOMAIN,www.deepl.com
-
   # Overleaf
   - DOMAIN-SUFFIX,overleaf.com
-
   # LeetCode
   - DOMAIN-SUFFIX,leetcode.com
-
   # Twitter
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
   # Reddit
   - DOMAIN,www.reddit.com
-
-  
   # Pornhub
   - DOMAIN-KEYWORD,pornhub
   - DOMAIN-SUFFIX,phncdn.com
