@@ -9,16 +9,40 @@ DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
-
 # Twitch
 DOMAIN-SUFFIX,twitch.tv
 # NicoNico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,dmc.nico
+# Vimeo
+DOMAIN-SUFFIX,vimeo.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
-
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.io
+# Stackoverflow
+DOMAIN,stackoverflow.com
+DOMAIN,cdn.sstatic.net
+# Wiki
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+# Z-Library
+DOMAIN-SUFFIX,z-lib.org
+# Steam
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+# Gravatar
+DOMAIN-SUFFIX,gravatar.com
+# DeepL
+DOMAIN,deepl.com
+# Twitter
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+# Reddit
+DOMAIN,www.reddit.com
 # Pornhub
 DOMAIN-KEYWORD,pornhub
 DOMAIN-SUFFIX,phncdn.com
@@ -34,32 +58,3 @@ DOMAIN-SUFFIX,7mmtv.tv
 DOMAIN-SUFFIX,missav.com
 # E-HENTAI
 DOMAIN-SUFFIX,e-hentai.org
-
-# Twitter
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-# Reddit
-DOMAIN,www.reddit.com
-
-# Github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,github.io
-# Stackoverflow
-DOMAIN,stackoverflow.com
-DOMAIN,cdn.sstatic.net
-
-# Wiki
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikimedia.org
-# Z-Library
-DOMAIN-SUFFIX,z-lib.org
-
-# Steam
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steampowered.com
-
-# Gravatar
-DOMAIN-SUFFIX,gravatar.com
-# DeepL
-DOMAIN,deepl.com
