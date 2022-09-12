@@ -20,28 +20,6 @@ payload:
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
 
-  # Pornhub
-  - DOMAIN-KEYWORD,pornhub
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phprcdn.com
-  # 91Porn
-  - DOMAIN,91porn.com
-  - DOMAIN,la2.killcovid2021.com
-  # Netflav
-  - DOMAIN,netflav.com
-  - DOMAIN,pornimg.xyz
-  - DOMAIN,99av.tv
-  - DOMAIN-SUFFIX,7mmtv.tv
-  - DOMAIN-SUFFIX,missav.com
-  # E-HENTAI
-  - DOMAIN-SUFFIX,e-hentai.org
-
-  # Twitter
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,twimg.com
-  # Reddit
-  - DOMAIN,www.reddit.com
-
   # Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,githubusercontent.com
@@ -64,4 +42,33 @@ payload:
   - DOMAIN-SUFFIX,gravatar.com
 
   # DeepL
-  - DOMAIN,deepl.com
+  - DOMAIN,www.deepl.com
+
+  # Overleaf
+  - DOMAIN-SUFFIX,overleaf.com
+
+  # LeetCode
+  - DOMAIN,leetcode.com
+
+  # Twitter
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twimg.com
+  # Reddit
+  - DOMAIN,www.reddit.com
+
+  
+  # Pornhub
+  - DOMAIN-KEYWORD,pornhub
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  # 91Porn
+  - DOMAIN,91porn.com
+  - DOMAIN,la2.killcovid2021.com
+  # Netflav
+  - DOMAIN,netflav.com
+  - DOMAIN,pornimg.xyz
+  - DOMAIN,99av.tv
+  - DOMAIN-SUFFIX,7mmtv.tv
+  - DOMAIN-SUFFIX,missav.com
+  # E-HENTAI
+  - DOMAIN-SUFFIX,e-hentai.org
