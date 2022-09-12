@@ -16,6 +16,8 @@ payload:
   # NicoNico
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,dmc.nico
+  # Vimeo
+  - DOMAIN-SUFFIX,vimeo.com
   # Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
@@ -48,7 +50,7 @@ payload:
   - DOMAIN-SUFFIX,overleaf.com
 
   # LeetCode
-  - DOMAIN,leetcode.com
+  - DOMAIN-SUFFIX,leetcode.com
 
   # Twitter
   - DOMAIN-SUFFIX,twitter.com
