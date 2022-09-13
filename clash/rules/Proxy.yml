@@ -10,16 +10,6 @@ payload:
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
-  # Twitch
-  - DOMAIN-SUFFIX,twitch.tv
-  # NicoNico
-  - DOMAIN-SUFFIX,nicovideo.jp
-  - DOMAIN-SUFFIX,dmc.nico
-  # Vimeo
-  - DOMAIN-SUFFIX,vimeo.com
-  # Pixiv
-  - DOMAIN-SUFFIX,pixiv.net
-  - DOMAIN-SUFFIX,pximg.net
   # Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,githubusercontent.com
@@ -35,6 +25,18 @@ payload:
   # Steam
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
+  # Twitch
+  - DOMAIN-SUFFIX,twitch.tv
+  # NicoNico
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,dmc.nico
+  # AniList
+  - DOMAIN,anilist.co
+  # Vimeo
+  - DOMAIN-SUFFIX,vimeo.com
+  # Pixiv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
   # Gravatar
   - DOMAIN-SUFFIX,gravatar.com
   # DeepL
