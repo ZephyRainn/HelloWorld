@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,goo.gle
   - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,gmail.com
+  # DuckDuckGo
+  - DOMAIN,duckduckgo.com
   # YouTube
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,youtu.be
@@ -56,12 +58,3 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   # 91Porn
   - DOMAIN,91porn.com
-  - DOMAIN,la2.killcovid2021.com
-  # Netflav
-  - DOMAIN,netflav.com
-  - DOMAIN,pornimg.xyz
-  - DOMAIN,99av.tv
-  - DOMAIN-SUFFIX,7mmtv.tv
-  - DOMAIN-SUFFIX,missav.com
-  # E-HENTAI
-  - DOMAIN-SUFFIX,e-hentai.org
