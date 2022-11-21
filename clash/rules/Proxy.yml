@@ -2,8 +2,6 @@ payload:
   # Google
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,goo.gle
-  - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,gmail.com
   # DuckDuckGo
   - DOMAIN,duckduckgo.com
@@ -14,7 +12,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   # Github
   - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN,raw.githubusercontent.com
   - DOMAIN-SUFFIX,github.io
   # Stackoverflow
   - DOMAIN,stackoverflow.com
