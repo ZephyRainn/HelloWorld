@@ -20,8 +20,6 @@ payload:
   # Wiki
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
-  # Z-Library
-  - DOMAIN-SUFFIX,z-lib.org
   # Steam
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
@@ -50,9 +48,5 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   # Reddit
   - DOMAIN,www.reddit.com
-  # Pornhub
-  - DOMAIN-KEYWORD,pornhub
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phprcdn.com
   # 91Porn
   - DOMAIN,91porn.com

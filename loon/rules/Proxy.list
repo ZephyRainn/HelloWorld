@@ -45,9 +45,5 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 # Reddit
 DOMAIN,www.reddit.com
-# Pornhub
-DOMAIN-KEYWORD,pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
 # 91Porn
 DOMAIN,91porn.com
