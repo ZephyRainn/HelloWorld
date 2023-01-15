@@ -1,0 +1,104 @@
+\documentclass[paper=a4,fontsize=12pt]{scrartcl} % KOMA-article class
+\usepackage{ctex}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage[top=3cm]{geometry}
+\usepackage{url}
+
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{
+	\sectionrule{0pt}{0pt}{-7pt}{2pt}
+}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{88888888}			% Box to align text
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1}             % Study
+            \hfill #2 \par                    % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1}             % Jobname
+		\hfill #2 \par                    % Duration
+		\noindent \textit{#3} \par        % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{XXX}
+\smallskip
+\MySlogan{breif}
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{个人信息}
+
+\PersonalEntry{出生年月}{XX年X月}
+\PersonalEntry{现居地}{XX}
+\PersonalEntry{手机}{}
+\PersonalEntry{邮箱}{}
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{教育经历}
+
+\EducationEntry{Major}{XX年X月--XX年X月}{XX大学}{Description}
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{项目经历}
+
+\WorkEntry{Project}{XX年X月--XX年X月}{XX公司}{Description}
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{专业技能}
+\SkillsEntry{编程语言}{}
+
+%%% Interesings
+%%% ------------------------------------------------------------
+\NewPart{个人兴趣}
+
+\end{document}
