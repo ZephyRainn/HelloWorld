@@ -11,9 +11,7 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
   # Github
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN,raw.githubusercontent.com
-  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-KEYWORD,github
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net
