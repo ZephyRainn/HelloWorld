@@ -46,5 +46,8 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   # Reddit
   - DOMAIN,www.reddit.com
+  # OSM
+  - DOMAIN-KEYWORD,openstreetmap
+
   # 91Porn
   - DOMAIN,91porn.com
