@@ -28,8 +28,6 @@ payload:
   - DOMAIN-SUFFIX,dmc.nico
   # AniList
   - DOMAIN,anilist.co
-  # Vimeo
-  - DOMAIN-SUFFIX,vimeo.com
   # Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
