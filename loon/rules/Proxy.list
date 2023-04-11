@@ -2,42 +2,23 @@
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gmail.com
-# DuckDuckGo
-DOMAIN,duckduckgo.com
+# Bing
+DOMAIN-SUFFIX,bing.com
 # YouTube
 DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
 # Github
-DOMAIN-SUFFIX,github.com
-DOMAIN,raw.githubusercontent.com
-DOMAIN-SUFFIX,github.io
-# Stackoverflow
-DOMAIN,stackoverflow.com
-DOMAIN,cdn.sstatic.net
+DOMAIN-KEYWORD,github
 # Wiki
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
-# Z-Library
-DOMAIN-SUFFIX,z-lib.org
-# Steam
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steampowered.com
-# Twitch
-DOMAIN-SUFFIX,twitch.tv
 # NicoNico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,dmc.nico
-# Vimeo
-DOMAIN-SUFFIX,vimeo.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
-# AniList
-DOMAIN,anilist.co
-# Gravatar
-DOMAIN-SUFFIX,gravatar.com
 # DeepL
 DOMAIN,deepl.com
 # Twitter
@@ -45,5 +26,8 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 # Reddit
 DOMAIN,www.reddit.com
+# 時雨の町
+DOMAIN-SUFFIX,sigure.tw
+
 # 91Porn
 DOMAIN,91porn.com

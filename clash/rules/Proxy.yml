@@ -3,49 +3,43 @@ payload:
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gmail.com
-  # DuckDuckGo
-  - DOMAIN,duckduckgo.com
   # YouTube
   - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
   # Github
   - DOMAIN-KEYWORD,github
-  # Stackoverflow
-  - DOMAIN,stackoverflow.com
-  - DOMAIN,cdn.sstatic.net
   # Wiki
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
+  # Stackoverflow
+  - DOMAIN,stackoverflow.com
+  - DOMAIN,cdn.sstatic.net
   # Steam
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
-  # Twitch
-  - DOMAIN-SUFFIX,twitch.tv
-  # NicoNico
-  - DOMAIN-SUFFIX,nicovideo.jp
-  - DOMAIN-SUFFIX,dmc.nico
-  # AniList
-  - DOMAIN,anilist.co
   # Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
-  # Gravatar
-  - DOMAIN-SUFFIX,gravatar.com
+  # NicoNico
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,dmc.nico
   # DeepL
   - DOMAIN,www.deepl.com
   # Overleaf
-  - DOMAIN-SUFFIX,overleaf.com
+  - DOMAIN,www.overleaf.com
   # LeetCode
-  - DOMAIN-SUFFIX,leetcode.com
+  - DOMAIN,leetcode.com
   # Twitter
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
   # Reddit
   - DOMAIN,www.reddit.com
-  # OSM
-  - DOMAIN-KEYWORD,openstreetmap
+  # 時雨の町
+  - DOMAIN-SUFFIX,sigure.tw
 
   # 91Porn
   - DOMAIN,91porn.com
+
+  # OSM
+  - DOMAIN-KEYWORD,openstreetmap

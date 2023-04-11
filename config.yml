@@ -1,0 +1,276 @@
+mixed-port: 7890
+
+allow-lan: false
+
+# This is only applicable when `allow-lan` is `true`
+# '*': bind all IP addresses
+# 192.168.122.11: bind a single IPv4 address
+# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
+bind-address: '*'
+
+mode: rule
+
+log-level: info
+
+# When set to false, resolver won't translate hostnames to IPv6 addresses
+ipv6: false
+
+# RESTful web API listening address
+external-controller: 127.0.0.1:9090
+
+# A relative path to the configuration directory or an absolute path to a
+# directory in which you put some static web resource. Clash core will then
+# serve it at `http://{{external-controller}}/ui`.
+external-ui: folder
+
+# Outbound interface name
+interface-name: en0
+
+# fwmark on Linux only
+routing-mark: 6666
+
+proxies:
+  - {name: JK1-V2-CN2俄01|v2ray|2x流量, server: v2.j.v4.2.kiki789.com, port: 39399, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-ru05.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2俄02|v2ray|2x流量, server: v2.j.v4.2.kiki789.com, port: 39391, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-ru06.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2台01|v2ray|2x流量, server: v2.ahlt.kiki789.com, port: 39205, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: host=live.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2台02|v2ray|2x流量, server: 4e36nodev1.jcdn1.kiki789.com, port: 39215, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: host=live.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2德GIA01|v2ray|2x流量, server: j.v2.1.kiki789.com, port: 27805, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-de03.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2新GIA01|v2ray|2x流量, server: v2.j.v4.2.kiki789.com, port: 29855, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-giasg03.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2日01|v2ray|2x流量, server: jp.v2.j.v4.2.kiki789.com, port: 39405, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azjp03.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2日02|v2ray|2x流量, server: jp.v2.j.v4.2.kiki789.com, port: 39413, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azjp07.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2港01|v2ray|2x流量, server: j.v2.1.kiki789.com, port: 39455, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-hgc03.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2港自有机房01|v2ray, server: j.v2.1.kiki789.com, port: 9713, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azhk31.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2港自有机房BGP02|v2ray, server: j.v2.2.kiki789.com, port: 29717, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azhk33.bilibili.com}}, udp: true}
+  - {name: JK1-V2-CN2美01|v2ray|4x流量, server: j.v2.1.kiki789.com, port: 32603, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-us05.bilibili.com}}, udp: true}
+  - {name: JK1-V2-新加坡OVH01|v2ray, server: 4e36nodev1.jcdn1.kiki789.com, port: 31875, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-sgovh03.bilibili.com}}, udp: true}
+  - {name: JK1-V2-新加坡OVH02|v2ray|2x流量, server: j.v2.1.kiki789.com, port: 38559, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-linode05.bilibili.com}}, udp: true}
+  - {name: JK1-V2-新加坡OVH03|v2ray|2x流量, server: j.v2.2.kiki789.com, port: 39561, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-linode06.bilibili.com}}, udp: true}
+  - {name: JK1-V2-新加坡OVH04|v2ray|2x流量, server: j.v2.1.kiki789.com, port: 39509, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azsg05.bilibili.com}}, udp: true}
+  - {name: JK1-V2-新加坡OVH05|v2ray|2x流量, server: j.v2.2.kiki789.com, port: 38511, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8, headers: {Host: jike1-azsg06.bilibili.com}}, udp: true}
+  - {name: JK1-V2-香港联通|v2ray, server: j.v4.1.kiki789.com, port: 31721, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-xglt.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广俄01|v2ray, server: j.v3.2.kiki789.com, port: 39397, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-ru04.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广台01|v2ray|1.5x流量, server: g.j.v3.1.kiki789.com, port: 39203, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: host=live.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广台02|v2ray|1.5x流量, server: g.j.v3.1.kiki789.com, port: 39213, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: host=live.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广德GIA01|v2ray|1.5x流量, server: j.v3.2.kiki789.com, port: 29893, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-de02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广新GIA01|v2ray|1.5x流量, server: ovhsg.v4.kiki789.com, port: 29853, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-giasg02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广日01|v2ray, server: jp.j.v3.2.kiki789.com, port: 39403, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azjp02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广港BGP01|v2ray, server: j.v3.1.kiki789.com, port: 29711, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azhk24.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广港BGP02|v2ray, server: j.v3.1.kiki789.com, port: 29709, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azhk23.bilibili.com}}, udp: true}
+  - {name: JK1-V3-广美01|v2ray|4x流量, server: jp.j.v3.2.kiki789.com, port: 39601, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-us02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH01|v2ray, server: ovhsg.v4.kiki789.com, port: 31873, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-sgovh02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH02|v2ray|1.5x流量, server: ovhsg.v4.kiki789.com, port: 38555, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-linode03.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH03|v2ray, server: ovhsg.v4.kiki789.com, port: 39571, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-linode11.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH04|v2ray|2x流量, server: ovhsg.v4.kiki789.com, port: 39595, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azsg03.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH05|v2ray|2x流量, server: ovhsg.v4.kiki789.com, port: 38507, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azsg04.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH06|v2ray|1.5x流量, server: ovhsg.v4.kiki789.com, port: 39573, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-linode12.bilibili.com}}, udp: true}
+  - {name: JK1-V3-新加坡OVH07|v2ray|1.5x流量, server: ovhsg.v4.kiki789.com, port: 39557, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-linode04.bilibili.com}}, udp: true}
+  - {name: JK1-V3-江港HGC02|v2ray, server: j.v3.1.kiki789.com, port: 39453, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-hgc02.bilibili.com}}, udp: true}
+  - {name: JK1-V3-沪俄01|v2ray, server: j.v3.2.kiki789.com, port: 39395, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-ru03.bilibili.com}}, udp: true}
+  - {name: JK1-V3-沪日02|v2ray, server: jp.j.v3.2.kiki789.com, port: 39411, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-azjp06.bilibili.com}}, udp: true}
+  - {name: JK1-V3-港自有机房01|v2ray, server: j.v3.1.kiki789.com, port: 31723, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-azhk32.bilibili.com}}, udp: true}
+  - {name: JK1-V3-香港联通01|v2ray, server: j.v4.1.kiki789.com, port: 39451, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-xglt.bilibili.com}}, udp: true}
+  - {name: JK1-V3-香港联通02|v2ray, server: j.v4.1.kiki789.com, port: 29707, type: vmess, uuid: 25622ce1-0f5f-3ca2-a022-6fab570cd92e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-xglt.bilibili.com}}, udp: true}
+
+  - name: PROXY
+    type: select
+    proxies:
+      - AUTO
+      - HK
+      - TW
+      - JP
+      - SG
+      - US
+      - MANUAL
+
+  - name: HK/TW Media
+    type: select
+    proxies:
+      - DIRECT
+      - HK
+      - TW
+
+  - name: FINAL
+    type: select
+    proxies:
+      - DIRECT
+      - AUTO
+      - HK
+      - TW
+      - JP
+      - SG
+      - US
+      - MANUAL
+
+  - name: MANUAL
+    type: select
+    proxies:
+      - JK1-V2-CN2俄01|v2ray|2x流量
+      - JK1-V2-CN2俄02|v2ray|2x流量
+      - JK1-V2-CN2台01|v2ray|2x流量
+      - JK1-V2-CN2台02|v2ray|2x流量
+      - JK1-V2-CN2德GIA01|v2ray|2x流量
+      - JK1-V2-CN2新GIA01|v2ray|2x流量
+      - JK1-V2-CN2日01|v2ray|2x流量
+      - JK1-V2-CN2日02|v2ray|2x流量
+      - JK1-V2-CN2港01|v2ray|2x流量
+      - JK1-V2-CN2港自有机房01|v2ray
+      - JK1-V2-CN2港自有机房BGP02|v2ray
+      - JK1-V2-CN2美01|v2ray|4x流量
+      - JK1-V2-新加坡OVH01|v2ray
+      - JK1-V2-新加坡OVH02|v2ray|2x流量
+      - JK1-V2-新加坡OVH03|v2ray|2x流量
+      - JK1-V2-新加坡OVH04|v2ray|2x流量
+      - JK1-V2-新加坡OVH05|v2ray|2x流量
+      - JK1-V2-香港联通|v2ray
+      - JK1-V3-广俄01|v2ray
+      - JK1-V3-广台01|v2ray|1.5x流量
+      - JK1-V3-广台02|v2ray|1.5x流量
+      - JK1-V3-广德GIA01|v2ray|1.5x流量
+      - JK1-V3-广新GIA01|v2ray|1.5x流量
+      - JK1-V3-广日01|v2ray
+      - JK1-V3-广港BGP01|v2ray
+      - JK1-V3-广港BGP02|v2ray
+      - JK1-V3-广美01|v2ray|4x流量
+      - JK1-V3-新加坡OVH01|v2ray
+      - JK1-V3-新加坡OVH02|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH03|v2ray
+      - JK1-V3-新加坡OVH04|v2ray|2x流量
+      - JK1-V3-新加坡OVH05|v2ray|2x流量
+      - JK1-V3-新加坡OVH06|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH07|v2ray|1.5x流量
+      - JK1-V3-江港HGC02|v2ray
+      - JK1-V3-沪俄01|v2ray
+      - JK1-V3-沪日02|v2ray
+      - JK1-V3-港自有机房01|v2ray
+      - JK1-V3-香港联通01|v2ray
+      - JK1-V3-香港联通02|v2ray
+
+  - name: AUTO
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-CN2俄01|v2ray|2x流量
+      - JK1-V2-CN2俄02|v2ray|2x流量
+      - JK1-V2-CN2台01|v2ray|2x流量
+      - JK1-V2-CN2台02|v2ray|2x流量
+      - JK1-V2-CN2德GIA01|v2ray|2x流量
+      - JK1-V2-CN2新GIA01|v2ray|2x流量
+      - JK1-V2-CN2日01|v2ray|2x流量
+      - JK1-V2-CN2日02|v2ray|2x流量
+      - JK1-V2-CN2港01|v2ray|2x流量
+      - JK1-V2-CN2港自有机房01|v2ray
+      - JK1-V2-CN2港自有机房BGP02|v2ray
+      - JK1-V2-CN2美01|v2ray|4x流量
+      - JK1-V2-新加坡OVH01|v2ray
+      - JK1-V2-新加坡OVH02|v2ray|2x流量
+      - JK1-V2-新加坡OVH03|v2ray|2x流量
+      - JK1-V2-新加坡OVH04|v2ray|2x流量
+      - JK1-V2-新加坡OVH05|v2ray|2x流量
+      - JK1-V2-香港联通|v2ray
+      - JK1-V3-广俄01|v2ray
+      - JK1-V3-广台01|v2ray|1.5x流量
+      - JK1-V3-广台02|v2ray|1.5x流量
+      - JK1-V3-广德GIA01|v2ray|1.5x流量
+      - JK1-V3-广新GIA01|v2ray|1.5x流量
+      - JK1-V3-广日01|v2ray
+      - JK1-V3-广港BGP01|v2ray
+      - JK1-V3-广港BGP02|v2ray
+      - JK1-V3-广美01|v2ray|4x流量
+      - JK1-V3-新加坡OVH01|v2ray
+      - JK1-V3-新加坡OVH02|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH03|v2ray
+      - JK1-V3-新加坡OVH04|v2ray|2x流量
+      - JK1-V3-新加坡OVH05|v2ray|2x流量
+      - JK1-V3-新加坡OVH06|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH07|v2ray|1.5x流量
+      - JK1-V3-江港HGC02|v2ray
+      - JK1-V3-沪俄01|v2ray
+      - JK1-V3-沪日02|v2ray
+      - JK1-V3-港自有机房01|v2ray
+      - JK1-V3-香港联通01|v2ray
+      - JK1-V3-香港联通02|v2ray
+
+  - name: HK
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-CN2港01|v2ray|2x流量
+      - JK1-V2-CN2港自有机房01|v2ray
+      - JK1-V2-CN2港自有机房BGP02|v2ray
+      - JK1-V2-香港联通|v2ray
+      - JK1-V3-广港BGP01|v2ray
+      - JK1-V3-广港BGP02|v2ray
+      - JK1-V3-江港HGC02|v2ray
+      - JK1-V3-港自有机房01|v2ray
+      - JK1-V3-香港联通01|v2ray
+      - JK1-V3-香港联通02|v2ray
+
+  - name: TW
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-CN2台01|v2ray|2x流量
+      - JK1-V2-CN2台02|v2ray|2x流量
+      - JK1-V3-广台01|v2ray|1.5x流量
+      - JK1-V3-广台02|v2ray|1.5x流量
+
+  - name: SG
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-新加坡OVH01|v2ray
+      - JK1-V2-新加坡OVH02|v2ray|2x流量
+      - JK1-V2-新加坡OVH03|v2ray|2x流量
+      - JK1-V2-新加坡OVH04|v2ray|2x流量
+      - JK1-V2-新加坡OVH05|v2ray|2x流量
+      - JK1-V3-新加坡OVH01|v2ray
+      - JK1-V3-新加坡OVH02|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH03|v2ray
+      - JK1-V3-新加坡OVH04|v2ray|2x流量
+      - JK1-V3-新加坡OVH05|v2ray|2x流量
+      - JK1-V3-新加坡OVH06|v2ray|1.5x流量
+      - JK1-V3-新加坡OVH07|v2ray|1.5x流量
+
+  - name: JP
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-CN2日01|v2ray|2x流量
+      - JK1-V2-CN2日02|v2ray|2x流量
+      - JK1-V3-广日01|v2ray
+      - JK1-V3-沪日02|v2ray
+
+  - name: US
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 30
+    proxies:
+      - JK1-V2-CN2美01|v2ray|4x流量
+      - JK1-V3-广美01|v2ray|4x流量
+
+rule-providers:
+  Proxy:
+    type: file
+    behavior: classical
+    path: D:\HelloWorld\clash\rules\Proxy.yml
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - DOMAIN-SUFFIX,pku.edu.cn,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,HK/TW Media
+  - DOMAIN,jike0.com,PROXY
+  - RULE-SET,Proxy,PROXY
+  - GEOIP,CN,DIRECT
+  - MATCH,FINAL
