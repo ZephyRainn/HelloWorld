@@ -14,7 +14,7 @@ DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 # Poe
-DOMAIN,poe.com
+DOMAIN-SUFFIX,poe.com
 # Quora
 DOMAIN-SUFFIX,quora.com
 # NicoNico
