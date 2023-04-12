@@ -12,6 +12,8 @@ payload:
   # Wiki
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
+  # Poe
+  - DOMAIN,poe.com
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net

@@ -13,6 +13,8 @@ DOMAIN-KEYWORD,github
 # Wiki
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
+# Poe
+DOMAIN,poe.com
 # NicoNico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,dmc.nico
