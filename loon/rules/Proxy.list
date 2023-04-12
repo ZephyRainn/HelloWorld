@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,wikimedia.org
 # Poe
 DOMAIN,poe.com
 # Quora
-DOMAIN,quora.com
+DOMAIN,www.quora.com
 # NicoNico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,dmc.nico
