@@ -16,6 +16,8 @@ payload:
   - DOMAIN-SUFFIX,wikimedia.org
   # Poe
   - DOMAIN,poe.com
+  # Quora
+  - DOMAIN,quora.com
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net
