@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+BreakBeforeBraces: Linux
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+IndentCaseLabels: false
+IndentPPDirectives: AfterHash
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AlignEscapedNewlines: ENAS_Left
+ColumnLimit: 120
+SortIncludes: Never
+# clang-format16
+# IntegerLiteralSeparator:
+#   Binary: 4
+#   BinaryMinDigits: 6
+#   Hex: 4
+#   BinaryMinDigits: 6
+#   Decimal: 3
+#   DecimalMinDigits: 9
