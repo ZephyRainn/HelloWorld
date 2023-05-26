@@ -30,6 +30,8 @@ payload:
   # NicoNico
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,dmc.nico
+  # MiKan
+  - DOMAIN,mikanani.me
   # DeepL
   - DOMAIN,www.deepl.com
   # Overleaf
