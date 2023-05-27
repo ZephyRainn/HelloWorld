@@ -3,7 +3,7 @@
 
 % 如果格式审查提示字号不严格符合标准，请加入 ugly 选项（已加，不要删除）。
 % 若要避免章末空白页，请加入 openany 选项。
-\documentclass[UTF8, ugly, openany]{pkuthss}
+\documentclass[UTF8, ugly, openany]{style/pkuthss}
 
 \usepackage[backend=biber, style=gb7714-2015]{biblatex}
 \addbibresource{ref.bib}
@@ -39,20 +39,20 @@
 	thesiscover={本科生毕业论文},
 	% 长标题可用 \thssnl 强制换行，不能用“\\”（双盲版会出错）。
 	% 如果横线过多，在 pkuthss.cls 中修改。
-	ctitle={基于国产化平台的卫星网关设计与实现},
-	etitle={Design and implementation of satellite gateway based on domestic production},
-	cauthor={乔泽雨},
-	eauthor={ZeYv Qiao},
-	date={二〇二三年五月},
-	studentid={1800012429},
-	school={信息科学技术学院},
-	cmajor={电子信息工程},
-	emajor={Electronic Information Engineering},
-	mentorlines={2},
-	cmentor={董明科\\ 吕国成},
-	ementor={MingKe Dong\\ GuoCheng Lv},
-	ckeywords={国产化，嵌入式，卫星通信，PCIe},
-	ekeywords={Domestication, Embedded System, Satellite Communications, PCIe},
+	ctitle={XXX},
+	etitle={XXX},
+	cauthor={XXX},
+	eauthor={XXX},
+	date={XXXX年X月},
+	studentid={1234567890},
+	school={XX学院},
+	cmajor={XX专业},
+	emajor={XX},
+	mentorlines={1},
+	cmentor={XXX},
+	ementor={XXX},
+	ckeywords={XX，XX},
+	ekeywords={XX, XX},
 	% 以下两项无双盲评审需求的用户可保持原状。
 	% 注意 discipline/major 分别指一/二级学科。
 	blindid={9876543210},
@@ -72,18 +72,18 @@
 \ifblind\makeblind\else\maketitle\fi
 \cleardoublepage
 % 导师评阅表。打印模板后直接放 PDF。
-% \include{杂项/review}
-\includepdf{杂项/review}
+% \include{miscs/review}
+\includepdf{miscs/review}
 \cleardoublepage
 % 版权声明。
-\include{杂项/copyright}
+\include{miscs/copyright}
 \cleardoublepage
 % 设置页眉、页脚、页码。
 \pagestyle{plain}
 \setcounter{page}{0}
 \pagenumbering{Roman}
 % 摘要。
-\include{杂项/abstract}
+\include{miscs/abstract}
 % 目录。
 \tableofcontents
 
@@ -106,9 +106,9 @@
 \backmatter
 
 % 致谢。
-\ifblind\else\include{杂项/acknowledgements}\fi
+\ifblind\else\include{miscs/acknowledgements}\fi
 % 原创性声明和使用授权说明。推荐打印模板后直接放 PDF。
-% \include{杂项/original}
-\includepdf{杂项/original}
+% \include{miscs/original}
+\includepdf{miscs/original}
 
 \end{document}
