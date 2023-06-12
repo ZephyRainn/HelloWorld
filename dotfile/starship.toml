@@ -11,12 +11,8 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#86BBD8 bg:#06969A)\
-$golang\
-$rust\
-$python\
-[](fg:#06969A bg:#33658A)\
 $status\
-[ ](fg:#33658A)\
+[ ](fg:#06969A)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -87,21 +83,21 @@ style = "bg:#86BBD8"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
-symbol = " "
+symbol = ""
 style = "bg:#06969A"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ]($style)'
 
 [rust]
-symbol = " "
+symbol = ""
 style = "bg:#06969A"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ]($style)'
 
 [python]
-symbol = " "
+symbol = ""
 style = "bg:#06969A"
 format = '[ $symbol ($version) ]($style)'
 
 [status]
-style = "bg:#33658A"
+style = "bg:#06969A"
 format = '[ \[$status\]]($style)'
 disabled = false
