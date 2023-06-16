@@ -14,8 +14,7 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     -- My plugins here
-    use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
-    use {'neoclide/coc.nvim', branch='release'}
+    use {"jiangmiao/auto-pairs"}
 
     -- Put this at the end after all plugins
     if packer_bootstrap then

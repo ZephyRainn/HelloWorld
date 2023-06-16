@@ -34,4 +34,4 @@ vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
 
 -- Copy to Windwos
-vim.keymap.set('v', 'yw', ':w! clip.exe<CR>', opts)
+vim.keymap.set('v', 'yw', ':w !clip.exe<CR>', opts)

@@ -28,10 +28,5 @@ DOMAIN,deepl.com
 # Twitter
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
-# Reddit
-DOMAIN,www.reddit.com
 # 時雨の町
 DOMAIN-SUFFIX,sigure.tw
-
-# 91Porn
-DOMAIN,91porn.com

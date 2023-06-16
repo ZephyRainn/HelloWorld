@@ -19,6 +19,8 @@ payload:
   - DOMAIN-SUFFIX,poe.com
   # Quora
   - DOMAIN-SUFFIX,quora.com
+  # Medium
+  - DOMAIN-SUFFIX,medium.com
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net
@@ -44,13 +46,5 @@ payload:
   # Twitter
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
-  # Reddit
-  - DOMAIN,www.reddit.com
   # 時雨の町
   - DOMAIN-SUFFIX,sigure.tw
-
-  # 91Porn
-  - DOMAIN,91porn.com
-
-  # OSM
-  - DOMAIN-KEYWORD,openstreetmap
