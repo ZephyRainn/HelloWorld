@@ -13,18 +13,12 @@ DOMAIN-KEYWORD,github
 # Wiki
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
-# Poe
-DOMAIN-SUFFIX,poe.com
-# Quora
-DOMAIN-SUFFIX,quora.com
 # NicoNico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,dmc.nico
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
-# DeepL
-DOMAIN,deepl.com
 # Twitter
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com

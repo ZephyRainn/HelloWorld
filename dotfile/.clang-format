@@ -1,13 +1,13 @@
 BasedOnStyle: LLVM
 BreakBeforeBraces: Linux
-IndentWidth: 4
-TabWidth: 4
-UseTab: Never
+IndentWidth: 8
+TabWidth: 8
+UseTab: AlignWithSpaces
 IndentCaseLabels: false
 IndentPPDirectives: AfterHash
-AllowShortIfStatementsOnASingleLine: WithoutElse
-AlignEscapedNewlines: ENAS_Left
-ColumnLimit: 120
+# AllowShortIfStatementsOnASingleLine: WithoutElse
+AlignEscapedNewlines: Left
+ColumnLimit: 100
 SortIncludes: Never
 # clang-format16
 # IntegerLiteralSeparator:

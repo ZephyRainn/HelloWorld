@@ -11,8 +11,10 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#86BBD8 bg:#06969A)\
+$python\
+[](fg:#06969A bg:#33658A)\
 $status\
-[ ](fg:#06969A)\
+[ ](fg:#33658A)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -36,9 +38,7 @@ Linux = " "
 Arch = " "
 Gentoo = " "
 Debian = " "
-Fedora = " "
 FreeBSD = " "
-Manjaro = " "
 NixOS = " "
 Raspbian = " "
 Windows = " "
@@ -98,6 +98,6 @@ style = "bg:#06969A"
 format = '[ $symbol ($version) ]($style)'
 
 [status]
-style = "bg:#06969A"
+style = "bg:#33658A"
 format = '[ \[$status\]]($style)'
 disabled = false
