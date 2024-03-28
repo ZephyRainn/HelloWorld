@@ -15,8 +15,6 @@ payload:
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikibooks.org
-  # Poe
-  - DOMAIN-SUFFIX,poe.com
   # Quora
   - DOMAIN-SUFFIX,quora.com
   # Medium
@@ -37,10 +35,6 @@ payload:
   - DOMAIN,mikanani.me
   # Bangumi
   - DOMAIN,bangumi.moe
-  # DeepL
-  - DOMAIN,www.deepl.com
-  # Overleaf
-  - DOMAIN,www.overleaf.com
   # LeetCode
   - DOMAIN,leetcode.com
   # Twitter
