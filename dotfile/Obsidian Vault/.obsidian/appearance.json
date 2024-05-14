@@ -1,0 +1,18 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "LXGW WenKai Screen",
+  "monospaceFontFamily": "Rec Mono Casual",
+  "textFontFamily": "LXGW WenKai Screen",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "quote",
+    "search",
+    "tag",
+    "extended-colorschemes"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "showViewHeader": false
+}

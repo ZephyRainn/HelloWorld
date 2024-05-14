@@ -1,0 +1,13 @@
+{
+  "workspace:export-pdf": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "command-palette:open": [],
+  "editor:insert-link": [],
+  "editor:toggle-bold": []
+}
