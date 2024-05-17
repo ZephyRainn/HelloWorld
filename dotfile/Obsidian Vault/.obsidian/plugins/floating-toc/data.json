@@ -4,8 +4,8 @@
   "positionStyle": "right",
   "isLoadOnMobile": true,
   "isLeft": true,
-  "isDefaultPin": true,
-  "isTooltip": false,
+  "isDefaultPin": false,
+  "isTooltip": true,
   "defaultCollapsedLevel": 6,
-  "expandAllSubheadings": true
+  "expandAllSubheadings": false
 }
