@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0c39a133e950c75f",
+        "id": "122bdb3916af8768",
         "type": "tabs",
-        "dimension": 48.82629107981221,
         "children": [
           {
-            "id": "2037c6433fb4d889",
+            "id": "a711dbf9b6a5bad1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "4f2718c745d310d5",
-        "type": "tabs",
-        "dimension": 51.173708920187785,
-        "children": [
-          {
-            "id": "2d90a9759f0db0c0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "rcore/RSICV ISA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -88,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rcore/RSICV ISA.md"
+              }
             }
           }
         ]
@@ -111,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rcore/RSICV ISA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rcore/RSICV ISA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,13 +157,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "3fa6244821ccd3ee",
+  "active": "a711dbf9b6a5bad1",
   "lastOpenFiles": [
+    "rcore/rcore.excalidraw.md",
+    "rcore/RSICV ISA.md",
     "未命名.md",
+    "rcore/Drawing 2024-05-15 13.06.40.excalidraw.md",
+    "rcore/rcore.excalidraw",
+    "Excalidraw/Drawing 2024-05-15 13.02.23.excalidraw.md",
+    "rcore",
     "Excalidraw/Drawing 2024-05-14 13.47.42.excalidraw.md",
     "未命名 1.md",
     "Excalidraw/Fonts/Muyao-Softbrush.ttf",
@@ -206,13 +204,10 @@
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
     "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
     "未命名 2",
-    "未命名 1",
-    "未命名",
-    "Drawing 2024-05-14 03.05.36.excalidraw.md"
+    "未命名 1"
   ]
 }

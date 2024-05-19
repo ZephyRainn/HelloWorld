@@ -84,7 +84,7 @@
   "anuppuccin-theme-settings@@anp-hide-status-bar": false,
   "anuppuccin-theme-settings@@anp-tooltip-toggle": false,
   "anuppuccin-theme-settings@@anp-toggle-metadata": true,
-  "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,
+  "anuppuccin-theme-settings@@anp-toggle-scrollbars": false,
   "anuppuccin-theme-settings@@anp-autohide-titlebar": true,
   "anuppuccin-theme-settings@@anp-cursor": "pointer",
   "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
@@ -113,5 +113,15 @@
   "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-teal",
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark": false,
-  "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": true
+  "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": true,
+  "anp-custom-rainbow-colors@@rainbow-color-2-default": "rainbow-color-2-lavender",
+  "anp-custom-rainbow-colors@@rainbow-color-3-default": "rainbow-color-3-flamingo",
+  "anp-custom-rainbow-colors@@rainbow-color-4-default": "rainbow-color-4-blue",
+  "anp-custom-rainbow-colors@@rainbow-color-5-default": "rainbow-color-5-pink",
+  "anp-custom-rainbow-colors@@rainbow-color-6-default": "rainbow-color-6-sapphire",
+  "anp-custom-rainbow-colors@@rainbow-color-7-default": "rainbow-color-7-mauve",
+  "anp-custom-rainbow-colors@@rainbow-color-8-default": "rainbow-color-8-sky",
+  "anp-custom-rainbow-colors@@rainbow-color-9-default": "rainbow-color-9-red",
+  "anp-custom-rainbow-colors@@rainbow-color-10-default": "rainbow-color-10-teal",
+  "anp-custom-rainbow-colors@@rainbow-color-11-default": "rainbow-color-11-maroon"
 }

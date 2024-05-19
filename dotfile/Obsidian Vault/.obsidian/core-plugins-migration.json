@@ -20,11 +20,11 @@
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
-  "word-count": false,
+  "word-count": true,
   "slides": false,
   "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": true
+  "sync": false
 }

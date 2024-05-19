@@ -1,7 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
   "editing-toolbar",
-  "better-word-count",
   "obsidian-icon-shortcodes",
   "obsidian-better-command-palette",
   "remember-cursor-position",
@@ -11,7 +10,6 @@
   "obsidian42-brat",
   "attachment-flow-plugin",
   "obsidian-timeline",
-  "number-headings-obsidian",
   "lapel",
   "shiki-highlighter"
 ]
