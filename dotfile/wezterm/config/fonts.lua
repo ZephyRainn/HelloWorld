@@ -1,6 +1,6 @@
 local wezterm = require('wezterm')
 
-local font = {family = "Rec Mono Casual", weight = "Regular"}
+local font = {family = "RecMonoCasual Nerd Font Mono", weight = "Regular"}
 local font_cn = {family = "Maple Mono SC NF", weight = "Regular"}
 local font_size = 13
 
