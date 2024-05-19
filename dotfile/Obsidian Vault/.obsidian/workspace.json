@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "122bdb3916af8768",
+        "id": "0c39a133e950c75f",
         "type": "tabs",
         "children": [
           {
-            "id": "a711dbf9b6a5bad1",
+            "id": "2037c6433fb4d889",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rcore/RSICV ISA.md",
+                "file": "信息论/压缩算法.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rcore/RSICV ISA.md"
+                "file": "信息论/压缩算法.md"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rcore/RSICV ISA.md",
+                "file": "信息论/压缩算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rcore/RSICV ISA.md",
+                "file": "信息论/压缩算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,13 +143,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,19 +155,15 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian42-brat:BRAT": true
+      "obsidian42-brat:BRAT": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a711dbf9b6a5bad1",
+  "active": "2037c6433fb4d889",
   "lastOpenFiles": [
-    "rcore/rcore.excalidraw.md",
-    "rcore/RSICV ISA.md",
-    "未命名.md",
-    "rcore/Drawing 2024-05-15 13.06.40.excalidraw.md",
-    "rcore/rcore.excalidraw",
-    "Excalidraw/Drawing 2024-05-15 13.02.23.excalidraw.md",
-    "rcore",
+    "信息论/压缩算法.md",
+    "未命名",
+    "信息论",
     "Excalidraw/Drawing 2024-05-14 13.47.42.excalidraw.md",
     "未命名 1.md",
     "Excalidraw/Fonts/Muyao-Softbrush.ttf",
@@ -204,10 +198,12 @@
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
     "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
     "未命名 2",
-    "未命名 1"
+    "未命名 1",
+    "Drawing 2024-05-14 03.05.36.excalidraw.md"
   ]
 }
