@@ -11,5 +11,7 @@
   "attachment-flow-plugin",
   "obsidian-timeline",
   "lapel",
-  "shiki-highlighter"
+  "shiki-highlighter",
+  "obsidian-minimal-settings",
+  "obsidian-list-callouts"
 ]

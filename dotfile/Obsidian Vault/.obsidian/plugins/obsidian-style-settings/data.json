@@ -124,5 +124,6 @@
   "anp-custom-rainbow-colors@@rainbow-color-repeat": "rainbow-repeat-11",
   "anp-custom-rainbow-colors@@rainbow-color-9-default": "rainbow-color-9-peach",
   "anp-custom-rainbow-colors@@rainbow-color-10-default": "rainbow-color-10-teal",
-  "anp-custom-rainbow-colors@@rainbow-color-11-default": "rainbow-color-11-yellow"
+  "anp-custom-rainbow-colors@@rainbow-color-11-default": "rainbow-color-11-yellow",
+  "minimal-style@@callouts-style": "callouts-outlined"
 }
