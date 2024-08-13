@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "abe1c4b4186ac6ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b1c843d2b8b3b55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc12794bdd7a6058",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ABI 与 FFI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c8dc8530992176b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2319ecedc723f38b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f226fbf1f90c9d92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a588cf79abf2989",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76757ed34c7279b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "89eaa0757099c912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fa6244821ccd3ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ABI 与 FFI.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "461227be58bc911a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a26983efc4bd6aa1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05be2adb916dd6b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ABI 与 FFI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f1a6a277d93f20d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ABI 与 FFI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03f85ca4276c13aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "25025ae5a259eb1e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": true,
+      "obsidian42-brat:BRAT": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "bc12794bdd7a6058",
+  "lastOpenFiles": [
+    "DNN on FPGA/未命名.md",
+    "ABI 与 FFI.md",
+    "dodo/未命名.md",
+    "dodo/Design.md",
+    "Report.md",
+    "dodo",
+    "信息论/压缩算法.md",
+    "DNN on FPGA",
+    "信息论",
+    "Excalidraw/Drawing 2024-05-14 13.47.42.excalidraw.md",
+    "未命名 1.md",
+    "Excalidraw/Fonts/Muyao-Softbrush.ttf",
+    "Excalidraw/Fonts",
+    "Excalidraw/新建文件夹",
+    "Excalidraw/Drawing 2024-05-14 12.18.54.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Repeat Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Repeat Elements.md",
+    "Excalidraw/Scripts/Downloaded/Fixed vertical distance.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed vertical distance.md",
+    "Excalidraw/Scripts/Downloaded/Fixed vertical distance between centers.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed vertical distance between centers.md",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.md",
+    "Excalidraw/Scripts/Downloaded/Fixed inner distance.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed inner distance.md",
+    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Ellipse Selected Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Ellipse Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
+    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "未命名 2"
+  ]
+}

@@ -1,0 +1,26 @@
+theme = "catppuccin_mocha_transparent"
+
+[editor]
+cursorline = true
+true-color = true
+color-modes = true
+auto-pairs = true
+scrolloff = 8
+preview-completion-insert = false
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[editor.file-picker]
+# hidden = false
+
+[keys.normal]
+J = ["select_line_below"]
+K = ["select_line_above"]

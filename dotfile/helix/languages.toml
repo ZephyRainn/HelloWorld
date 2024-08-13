@@ -1,0 +1,28 @@
+[[language]]
+name = "c"
+file-types = ["c", "h"]
+indent = { tab-width = 8, unit = "\t" }
+
+[[language]]
+name = "rust"
+file-types = ["rs"]
+indent = { tab-width = 4, unit = "    " }
+
+[[language-server.typescript-language-server.config.plugins]]
+name = "@vue/typescript-plugin"
+location = "/usr/lib/node_modules/@vue/language-server/"
+languages = ["vue"]
+
+[[language]]
+name = "vue"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "vue"] }
+language-servers = ["typescript-language-server", "vscode-css-language-server", "emmet-lsp"]
+
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
+[[language]]
+name = "html"
+language-servers = ["emmet-lsp"]
