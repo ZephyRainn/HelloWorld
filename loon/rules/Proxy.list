@@ -19,7 +19,8 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN,stackoverflow.com
 DOMAIN,cdn.sstatic.net
 # Twitter
-DOMAIN,www.twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net

@@ -1,44 +1,38 @@
 payload:
+  - DOMAIN,www.gravatar.com
   # Google
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN,gmail.com
   # Bing
-  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,bing.com
+  # OpenAI
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
   # YouTube
-  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN,www.youtube.com
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
   # Github
   - DOMAIN-KEYWORD,github
+  # LeetCode
+  - DOMAIN,leetcode.com
   # Wiki
   - DOMAIN-SUFFIX,wikipedia.org
-  - DOMAIN-SUFFIX,wikimedia.org
-  - DOMAIN-SUFFIX,wikibooks.org
-  # Quora
-  - DOMAIN-SUFFIX,quora.com
   # Medium
-  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN,medium.com
   # Stackoverflow
   - DOMAIN,stackoverflow.com
   - DOMAIN,cdn.sstatic.net
+  # Twitter
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twimg.com
   # Steam
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN,steamcommunity.com
+  - DOMAIN,steampowered.com
   # Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
-  # NicoNico
-  - DOMAIN-SUFFIX,nicovideo.jp
-  - DOMAIN-SUFFIX,dmc.nico
   # MiKan
   - DOMAIN,mikanani.me
-  # Bangumi
-  - DOMAIN,bangumi.moe
-  # LeetCode
-  - DOMAIN,leetcode.com
-  # Twitter
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,twimg.com
-  # 時雨の町
-  - DOMAIN-SUFFIX,sigure.tw
