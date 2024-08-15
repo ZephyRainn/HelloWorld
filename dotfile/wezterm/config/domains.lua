@@ -23,7 +23,6 @@ return {
          -- Specify a SSH connection authentication file
          -- Default authentication file is "~/.ssh/id_rsa"
          ssh_option = {
-            identityfile = 'C:\\Users\\zainc\\.ssh\\id_rsa',
          },
       },
    },
@@ -33,12 +32,5 @@ return {
 
    -- ref: https://wezfurlong.org/wezterm/config/lua/WslDomain.html
    wsl_domains = {
-      {
-         name = 'WSL:Ubuntu',
-         distribution = 'Ubuntu',
-         username = 'zeph',
-         default_cwd = '/home/zeph',
-         default_prog = { 'bash' },
-      },
    },
 }

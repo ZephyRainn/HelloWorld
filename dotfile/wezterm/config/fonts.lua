@@ -1,10 +1,9 @@
 local wezterm = require('wezterm')
 
-local font = {family = "RecMonoCasual Nerd Font Mono", weight = "Regular"}
-local font_cn = {family = "Maple Mono SC NF", weight = "Regular"}
+local font = {family = "Monaco", weight = "Regular"}
 local font_size = 13
 
 return {
-   font = wezterm.font_with_fallback({font, font_cn}),
+   font = wezterm.font_with_fallback({font}),
    font_size = font_size,
 }
